@@ -130,6 +130,37 @@ main > section{
     font-weight: 500;
 
 }
+/*   ....some facts related style.......*/
+.fact-number{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.fact-description{
+    max-width: 540px    ;
+}
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.fact-card{
+       border: 1px solid #FF900E;
+       width: 240px ;
+       height: 240px;
+       text-align: center;
+       border-radius: 8px;
+       align-items: center;
+       justify-content: center;
+}
 
 /*....Responsive media query......*/
 
