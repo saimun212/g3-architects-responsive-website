@@ -130,6 +130,45 @@ main > section{
     font-weight: 500;
 
 }
+
+/**.....feature section related style.......**/
+
+.feature{
+    gap: 140px;
+}
+#feature-section-title{
+             border-left: 5px solid #FF900E;
+            padding-left: 20px;
+}
+
+.feature-card{
+     padding: 30px;
+        box-shadow: 0 4px 30px #bfb6b6;
+        margin-bottom: 20px;
+        border-radius: 8pxs;
+}
+#experience-bage{
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#Experience-year{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.feature-architects, img{
+          width: 100%;
+}
+.feature-card, .feature-title{
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 0%;
+        margin-bottom: 0%;
+       
+}
 /*   ....some facts related style.......*/
 .fact-number{
     font-size: 2.5rem;
@@ -178,11 +217,24 @@ main > section{
     filter: grayscale(100%);
 }
 
+/*.......footer related style......*/
+.footer{
+    text-align: center;
+    background-color: darksalmon;
+    padding: 3px;
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-right: 450px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+}
+
 /*....Responsive media query......*/
 
 @media screen and (max-width: 576px){
     .navbar, 
     .nav-link, 
+    .feature,
     .team{
         flex-direction: column;
     }
@@ -205,10 +257,23 @@ main > section{
       .our-feature{
         margin-left: 20px;
       }
+      #experience-bage{
+      margin-top: 20px;
+      margin-left: 20px;
+      }
+      .footer{
+        text-align: center;
+        background-color: red;
+        color: beige;
+        margin: 10px 500px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 13px;
+      }
 }
 
 @media screen and (min-width:577px) and (max-width:948px){
-      .team{
+      .team,
+      .feature{
       flex-direction: column;
     }   
    
@@ -220,5 +285,17 @@ main > section{
         grid-template-columns: repeat(2, 1fr);
         gap: 35px;
         justify-items: center;
+      }
+        #experience-bage{
+      margin-top: 20px;
+      margin-left: 20px;
+      }
+      .footer{
+        text-align: center;
+        background-color: rgb(14, 239, 21);
+        color: beige;
+        margin: 10px 500px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 13px;
       }
 }
